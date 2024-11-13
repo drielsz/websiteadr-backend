@@ -9,7 +9,7 @@ const appCustom = require('./config/appCustom');
 
 
 const corsOptions = {
-    origin: ['http://127.0.0.1:5500', 'https://websiteadr-backend-production.up.railway.app', 'https://www.adrielwebdesign.site'],
+    origin: ['http://127.0.0.1:5500', 'https://websiteadr-backend-production.up.railway.app', 'https://www.adrielwebdesign.site', 'http://127.0.0.1:5501'],
     methods: ['GET', 'POST', 'OPTIONS'],
     allowedHeaders: ['Content-Type', 'Authorization'], 
     credentials: true,  
